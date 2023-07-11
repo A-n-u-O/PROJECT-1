@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website - front-end web development</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4328e391f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+
+
+<!-- home -->
+<!-- to add dark overlay on background Image
+    <div class="overlay"></div> -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo"> 
+                <ul id="side-menu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <!-- <li><a href="#we-offer">PORTFOLIO</a></li> -->
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Front-end web development</p>
+                <h1>Hi i'm<span> Anuoluwapo</span><br>Welcome to my portfolio website</h1>
+            </div>
+           
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="./images/about.png" >
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About <span>ME</span></h1>
+                    <p>Hello!, i'm Anuoluwapo a front-end web developer </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span><br></li>
+                            <li><span>CSS3</span><br></li>
+                            <li><span>JAVASCRIPT</span><br></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Coding for 1.5 years</span><br> c, cpp, Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Front-end web development October 2022 - till date</span><br>Cousera </li>
+                            <li><span>Front-end web development July 2023</span><br>Duromedia Academy, Nigeria</li>
+                            <li><span>B.Sc Computer Science January 2022 - till date</span> <br>Babcock University, Nigeria</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chalkboard"></i>
+                    <h2>Portfolio websites</h2>
+                    <p>If you need a portfolio website just like this one or any one of your choice, send a message through the form
+                         at the end of this page</p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-computer-classic"></i>
+                    <h2>Teaching programming basics</h2>
+                     <a href="#">Learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>Practice questions for certificate exams</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut earum maxime obcaecati porro incidunt
+                     natus officia omnis totam debitis?</p>
+                     <a href="#">Learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <!-- WE OFFER
+    <div id="we-offer">
+        <div class="container">
+           <h1 class="sub-title">WE OFFER</h1>
+           <div class="offer-list">
+                <div class="offer">
+                    <img src="./images/service1.png">
+                    <div class="layer">
+                        <h1>PHYSICAL CLASSES</h1>
+                        <p>A learning environment facility is provided and all students are taught in a classroom setting</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="offer">
+                    <img src="./images/img7.png">
+                    <div class="layer">
+                        <h1>ONLINE CLASSES</h1>
+                        <p>A virtual environment in which both students and tutor are in a virtual meeting and the classes are being held 
+                            on a meeting application. Applications used are zoom, google classroom, telegram and our very own <span>SMARTYS!</span> app</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="offer">
+                    <img src="./images/img8.png">
+                    <div class="layer">
+                        <h1>HOME SCHOOLING</h1>
+                        <p>Students are assigned individual tutors who according to the timetable come to teach the his or her student for the chosen course</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+ -->
+
+
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anuvictor2005@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>08180382658</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="./Anuoluwapo Victor CV.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="NAME" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id=""rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; ANUOLUWAPO. <!----Made with <i class="fa-solid fa-heart"></i> Easy Tutorials</p>------->
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySBy2EmxRoE_u3zzlC8mYqMnYrLkPumzUeh6puLHlQ17PjMcp1lCL5IwEagYb-l53OGg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+        })
+      </script>
+      
+</body>
+</html>
